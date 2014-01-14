@@ -4,10 +4,10 @@ Compiler
 A programming project to create a compiler for a simple language. A project to learn the basics involded in writing a compiler from scratch.
 
 Following is the grammar of the language:
-	program -> var_section body
-	var_section -> VAR int_var_decl array_var_decl
-	int_var_decl -> id_list SEMICOLON
-	array_var_decl -> id_list COLON ARRAY LBRAC NUM RBRAC SEMICOLON
+		program -> var_section body
+		var_section -> VAR int_var_decl array_var_decl
+		int_var_decl -> id_list SEMICOLON
+		array_var_decl -> id_list COLON ARRAY LBRAC NUM RBRAC SEMICOLON
 	id_list -> ID COMMA id_list | ID
 	body -> LBRACE stmt_list RBRACE
 	stmt_list -> stmt stmt_list | stmt
